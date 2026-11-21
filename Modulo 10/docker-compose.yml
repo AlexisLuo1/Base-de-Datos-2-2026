@@ -1,8 +1,0 @@
-services:
-  mariadb:
-    image: mariadb
-    ports:
-      - "3308:3306"
-    environment:
-      MARIADB_ROOT_PASSWORD: 12345
-      MARIADB_DATABASE: bd_clase
